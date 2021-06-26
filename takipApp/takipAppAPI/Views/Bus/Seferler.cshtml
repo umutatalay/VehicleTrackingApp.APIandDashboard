@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "Seferler";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Seferler</h1>
+
+@model List<takipApp.Entities.BusTable>
+<body>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/jszip-3.1.3/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-html5-1.3.1/b-print-1.3.1/r-2.1.1/rg-1.0.0/datatables.min.css" />
+
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/jszip-3.1.3/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-html5-1.3.1/b-print-1.3.1/r-2.1.1/rg-1.0.0/datatables.min.js"></script>
+</body>
+
+
+<table id="myTable" class="table table-responsive">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Hat Kodu</th>
+            <th>Başlangıç Konumu</th>
+            <th>Varış Konumu</th>
+            <th>Sefer Saati</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <button href="" type="button" class="btn btn-danger">
+                        <a href="~/Dashboard/ArsaSil/@item.Id" style="color:white"> Sil </a>
+
+                    </button>
+
+                </td>
+                <td>
+                    <button href="~/Dashboard/ArsaGuncelle/@item.Id" type="button" class="btn btn-warning">
+                        <a href="~/Dashboard/ArsaGuncelle/@item.Id" style="color:white"> Güncelle </a>
+
+                    </button>
+
+                </td>
+                <td>
+                    <button href="~/Main/Arsadetay/@item.Id" type="button" class="btn btn-primary">
+                        <a href="~/Main/Arsadetay/@item.Id" style="color:white"> Detay </a>
+
+                    </button>
+
+                </td>
+                <td>
+                    @item.TypeOfBus
+                </td>
+                <td>
+                    @item.firstLocation
+                </td>
+                <td>
+                    @item.DropOffLocation
+                </td>
+
+                <td>
+                    @item.Hour
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+<button href="~/Dashboard/ArsaEkle" type="button" class="btn btn-success">
+    <a href="" style="color:white"> Yeni Sefer Ekle </a>
+
+</button>
+
+
+
+<script>
+    $('#myTable').DataTable(
+        {
+            "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.10.20/i18n/Turkish.json"
+            }
+        }
+    );
+</script>

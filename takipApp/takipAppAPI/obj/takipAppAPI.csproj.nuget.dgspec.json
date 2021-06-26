@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipAppAPI\\takipAppAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Business\\takipApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Business\\takipApp.Business.csproj",
+        "projectName": "takipApp.Business",
+        "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Business\\takipApp.Business.csproj",
+        "packagesPath": "C:\\Users\\UMUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UMUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.DataAccess\\takipApp.DataAccess.csproj": {
+                "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.DataAccess\\takipApp.DataAccess.csproj"
+              },
+              "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj": {
+                "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.DataAccess\\takipApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.DataAccess\\takipApp.DataAccess.csproj",
+        "projectName": "takipApp.DataAccess",
+        "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.DataAccess\\takipApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\UMUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UMUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj": {
+                "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj",
+        "projectName": "takipApp.Entities",
+        "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\UMUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UMUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipAppAPI\\takipAppAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipAppAPI\\takipAppAPI.csproj",
+        "projectName": "takipAppAPI",
+        "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipAppAPI\\takipAppAPI.csproj",
+        "packagesPath": "C:\\Users\\UMUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipAppAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UMUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Business\\takipApp.Business.csproj": {
+                "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Business\\takipApp.Business.csproj"
+              },
+              "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj": {
+                "projectPath": "D:\\Users\\UMUT\\source\\repos\\takipApp\\takipApp.Entities\\takipApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

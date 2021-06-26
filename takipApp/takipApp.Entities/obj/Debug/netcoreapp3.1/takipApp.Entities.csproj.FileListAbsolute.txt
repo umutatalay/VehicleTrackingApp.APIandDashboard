@@ -1,0 +1,12 @@
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.deps.json
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.dll
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.csprojAssemblyReference.cache
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.AssemblyInfoInputs.cache
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.AssemblyInfo.cs
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.runtimeconfig.json
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.runtimeconfig.dev.json
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.genruntimeconfig.cache
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.pdb
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.csproj.CoreCompileInputs.cache
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.dll
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.pdb
