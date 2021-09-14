@@ -9,7 +9,7 @@ D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\obj\Debug\netcoreapp3.1\
 D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\bin\Debug\netcoreapp3.1\takipApp.Entities.dll
 D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\bin\Debug\netcoreapp3.1\takipApp.DataAccess.pdb
 D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\bin\Debug\netcoreapp3.1\takipApp.Entities.pdb
-D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\obj\Debug\netcoreapp3.1\takipApp.DataAccess.csproj.CoreCompileInputs.cache
 D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\obj\Debug\netcoreapp3.1\takipApp.DataAccess.csproj.CopyComplete
 D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\obj\Debug\netcoreapp3.1\takipApp.DataAccess.dll
 D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\obj\Debug\netcoreapp3.1\takipApp.DataAccess.pdb
+D:\Users\UMUT\source\repos\takipApp\takipApp.DataAccess\obj\Debug\netcoreapp3.1\takipApp.DataAccess.csproj.CoreCompileInputs.cache

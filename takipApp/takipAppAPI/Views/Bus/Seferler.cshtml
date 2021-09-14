@@ -5,8 +5,6 @@
 }
 
 <h1>Seferler</h1>
-
-@model List<takipApp.Entities.BusTable>
 <body>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/jszip-3.1.3/pdfmake-0.1.27/dt-1.10.15/b-1.3.1/b-html5-1.3.1/b-print-1.3.1/r-2.1.1/rg-1.0.0/datatables.min.css" />
 
@@ -17,13 +15,13 @@
 <table id="myTable" class="table table-responsive">
     <thead>
         <tr>
-            <th></th>
-            <th></th>
-            <th></th>
+
+
             <th>Hat Kodu</th>
             <th>Başlangıç Konumu</th>
             <th>Varış Konumu</th>
             <th>Sefer Saati</th>
+            <th>Gün</th>
 
         </tr>
     </thead>
@@ -32,48 +30,43 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    <button href="" type="button" class="btn btn-danger">
-                        <a href="~/Dashboard/ArsaSil/@item.Id" style="color:white"> Sil </a>
+        <tr>
 
-                    </button>
 
-                </td>
-                <td>
-                    <button href="~/Dashboard/ArsaGuncelle/@item.Id" type="button" class="btn btn-warning">
-                        <a href="~/Dashboard/ArsaGuncelle/@item.Id" style="color:white"> Güncelle </a>
+            <td>
+                @item.TypeOfBus
+            </td>
+            <td>
+                @item.firstLocation
+            </td>
+            <td>
+                @item.DropOffLocation
+            </td>
 
-                    </button>
+            <td>
+                @item.Hour
+            </td>
 
-                </td>
-                <td>
-                    <button href="~/Main/Arsadetay/@item.Id" type="button" class="btn btn-primary">
-                        <a href="~/Main/Arsadetay/@item.Id" style="color:white"> Detay </a>
+            <td>
+                @item.Day
+            </td>
 
-                    </button>
-
-                </td>
-                <td>
-                    @item.TypeOfBus
-                </td>
-                <td>
-                    @item.firstLocation
-                </td>
-                <td>
-                    @item.DropOffLocation
-                </td>
-
-                <td>
-                    @item.Hour
-                </td>
-                
-            </tr>
+        </tr>
         }
     </tbody>
 </table>
-<button href="~/Dashboard/ArsaEkle" type="button" class="btn btn-success">
+<button href="SeferEkle" type="button" class="btn btn-success">
     <a href="" style="color:white"> Yeni Sefer Ekle </a>
+
+</button>
+
+<button href="SeferGuncelleSil" type="button" class="btn btn-warning">
+    <a href="" style="color:white"> Sefer Güncelle </a>
+
+</button>
+
+<button href="SeferGuncelleSil" type="button" class="btn btn-danger">
+    <a href="" style="color:white"> Herhangi bir seferi sil </a>
 
 </button>
 

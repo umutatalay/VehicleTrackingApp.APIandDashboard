@@ -8,7 +8,7 @@ D:\Users\UMUT\source\repos\takipApp\takipApp.Business\bin\Debug\netcoreapp3.1\ta
 D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.csprojAssemblyReference.cache
 D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.AssemblyInfoInputs.cache
 D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.AssemblyInfo.cs
-D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.csproj.CoreCompileInputs.cache
 D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.csproj.CopyComplete
 D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.dll
 D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.pdb
+D:\Users\UMUT\source\repos\takipApp\takipApp.Business\obj\Debug\netcoreapp3.1\takipApp.Business.csproj.CoreCompileInputs.cache

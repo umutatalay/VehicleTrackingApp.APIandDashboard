@@ -8,7 +8,7 @@ using takipApp.Entities;
 
 namespace takipApp.DataAccess.Concrete
 {
-    public class SeferRepository : ISeferRepository
+    public class SeferRepository : IContanctRepository
     {
         public BusTable Create(BusTable busTable)
         {

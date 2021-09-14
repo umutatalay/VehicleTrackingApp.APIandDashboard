@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewData["Title"] = "mesajdetay";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+@model takipApp.Entities.ContactTable
+
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .container {
+            clear: both;
+            position: relative;
+        }
+
+            .container .arrow {
+                width: 12px;
+                height: 20px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+                top: 6px;
+                right: -1px;
+            }
+
+                .container .arrow .outer {
+                    width: 0;
+                    height: 0;
+                    border-right: 20px solid #000000;
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .container .arrow .inner {
+                    width: 0;
+                    height: 0;
+                    border-right: 20px solid #ffffff;
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    position: absolute;
+                    top: 0;
+                    left: 2px;
+                }
+
+            .container .message-body {
+                float: left;
+                width: 300px;
+                height: auto;
+                border: 1px solid #CCC;
+                background-color: #ffffff;
+                border: 1px solid #000000;
+                padding: 6px 8px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -o-border-radius: 5px;
+                border-radius: 5px;
+            }
+
+                .container .message-body p {
+                    margin: 0;
+                }
+    </style>
+</body>
+
+<h1> Gelen Mesaj</h1>
+<h3 style="border:5px solid black">
+    Mesajı Gönderen : @Model.Name
+</h3>
+<h3 style="border:5px solid black">
+    Gönderen E Posta Adresi : @Model.EMailAddress
+</h3>
+<h3 style="border:5px solid black">
+    Gönderen Cep Telefonu : @Model.PhoneNumber
+</h3>
+
+<h3 style="border:5px solid black">
+
+    <br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://image.flaticon.com/icons/png/64/848/848006.png" alt="Resim Yüklenemedi .!" />
+            </div>
+            <div class="col-10">
+                <div class="container">
+
+
+                    <div class="arrow">
+
+                        <div class="outer"></div>
+                        <div class="inner"></div>
+
+                    </div>
+                    <div class="message-body">
+                        <br />
+                        <p>@Model.Message</p>
+                        <br />
+                    </div>
+                    <td>
+                    </td>
+                </div>
+            </div>
+            <div class="col">
+                <button href="mesajsil/@Model.Id" type="button" class="btn btn-danger"><a href="mesajsil/@Model.Id" style="color:white">Bu Mesajı Sil</a></button>
+
+            </div>
+        </div>
+
+        
+
+
+    </div>
+    <br />
+
+</h3>

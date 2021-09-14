@@ -1,0 +1,49 @@
+﻿@model takipAppAPI.Dtos.SeferGuncelleModel
+@{
+    ViewData["Title"] = "SeferGuncelle";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>SeferGuncelle</h1>
+
+
+<input type="hidden" asp-for="@Model.Id" />
+
+<form asp-action="SeferGuncelle" asp-controller="Bus" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Hat Kodu:</label>
+        <span asp-validation-for="@Model.TypeOfBus" class="text-danger"></span>
+        <input asp-for="@Model.TypeOfBus" />
+
+    </div>
+
+
+    <div class="form-group">
+        <label>Başangıç Konumu </label>
+        <span asp-validation-for="@Model.firstLocation" class="text-danger"></span>
+        <input asp-for="@Model.firstLocation" />
+    </div>
+
+    <div class="form-group">
+        <label>Varış Konumu</label>
+        <span asp-validation-for="@Model.DropOffLocation" class="text-danger"></span>
+        <input asp-for="@Model.DropOffLocation" />
+    </div>
+
+    <div class="form-group">
+        <label>Sefer Günü</label>
+        <span asp-validation-for="@Model.Day" class="text-danger"></span>
+        <input asp-for="@Model.Day" />
+    </div>
+
+    <div class="form-group">
+        <label>Sefer Saati</label>
+        <span asp-validation-for="@Model.Hour" class="text-danger"></span>
+        <input asp-for="@Model.Hour" />
+    </div>
+
+
+    <div class="form-group">
+        <button type="submit"> Güncelle </button>
+    </div>
+</form>

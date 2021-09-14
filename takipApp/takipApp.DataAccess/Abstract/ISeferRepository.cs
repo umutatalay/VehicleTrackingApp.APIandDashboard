@@ -6,7 +6,7 @@ using takipApp.Entities;
 
 namespace takipApp.DataAccess.Abstract
 {
-   public interface ISeferRepository
+   public interface IContanctRepository
     {
         List<BusTable> GetAll();
 

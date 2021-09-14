@@ -11,5 +11,6 @@ namespace takipAppAPI.Dtos
         public string firstLocation { get; set; }
         public string DropOffLocation { get; set; }
         public string Hour { get; set; }
+        public string Day { get; set; }
     }
 }

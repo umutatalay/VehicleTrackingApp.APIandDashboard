@@ -7,6 +7,6 @@ D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\ta
 D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.runtimeconfig.dev.json
 D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.genruntimeconfig.cache
 D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\bin\Debug\netcoreapp3.1\takipApp.Entities.pdb
-D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.csproj.CoreCompileInputs.cache
 D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.dll
 D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.pdb
+D:\Users\UMUT\source\repos\takipApp\takipApp.Entities\obj\Debug\netcoreapp3.1\takipApp.Entities.csproj.CoreCompileInputs.cache

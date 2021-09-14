@@ -11,7 +11,7 @@ namespace takipApp.Business.Concreate
     public class SeferManager : ISeferService
     {
 
-        private ISeferRepository _seferRepository;
+        private IContanctRepository _seferRepository;
 
         public SeferManager()
         {

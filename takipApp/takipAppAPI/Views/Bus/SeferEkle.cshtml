@@ -4,53 +4,75 @@
     Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
 
-<h1>SeferEkle</h1>
+<h1>Sefer Ekle</h1>
 
 @addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
-<h1>ArsaEkle</h1>
+
 
 
 
 <form asp-action="SeferEkle" asp-controller="Bus" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label>Hat Kodu:</label>
+
+
+
+    <div class="form-group input-group">
+        @*<label>Hat Kodu:</label>*@
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">Hat Kodu    </span>
+        </div>
         <span asp-validation-for="@Model.TypeOfBus" class="text-danger"></span>
-        <input asp-for="@Model.TypeOfBus" />
+        <input type="text" class="form-control" asp-for="@Model.TypeOfBus" />
 
     </div>
-
-
-
-
-
-    <div class="form-group">
-        <label>Başlangıç Konumu</label>
+    <br />
+    <div class="form-group input-group">
+        @*<label>Hat Kodu:</label>*@
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">Başlangıç Konumu </span>
+        </div>
         <span asp-validation-for="@Model.firstLocation" class="text-danger"></span>
-        <input asp-for="@Model.firstLocation" />
+        <input type="text" class="form-control" asp-for="@Model.firstLocation" />
+
     </div>
-
-    
-
-    <div class="form-group">
-        <label>Varış Konumu</label>
+    <br />
+    <div class="form-group input-group">
+        @*<label>Hat Kodu:</label>*@
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">Varış Konumu </span>
+        </div>
         <span asp-validation-for="@Model.DropOffLocation" class="text-danger"></span>
-        <input asp-for="@Model.DropOffLocation" />
+        <input type="text" class="form-control" asp-for="@Model.DropOffLocation" />
+
     </div>
-    <div class="form-group">
-        <label>Sefer Saati</label>
+    <br />
+    <div class="form-group input-group">
+
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">Sefer Günü  </span>
+        </div>
+        <span asp-validation-for="@Model.Day" class="text-danger"></span>
+        <input type="text" class="form-control" asp-for="@Model.Day" />
+
+    </div>
+    <br />
+    <div class="form-group input-group">
+
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">Sefer Saati  </span>
+        </div>
         <span asp-validation-for="@Model.Hour" class="text-danger"></span>
-        <input asp-for="@Model.Hour" />
+        <input type="text" class="form-control" asp-for="@Model.Hour" />
+
     </div>
-   
 
 
 
 
 
-    
 
+    <br />
 
-    <div class="form-group">
-        <button type="submit"> Ekle </button>
+    <div class="form-group center">
+        <button type="submit" class="btn btn-success"> Ekle </button>
     </div>
 </form>

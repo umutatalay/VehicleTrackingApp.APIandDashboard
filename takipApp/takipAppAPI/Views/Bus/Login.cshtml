@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/css/login.css" rel="stylesheet" />
+</head>
+<body>
+
+    <section>
+        @using (Html.BeginForm("Login", ""))
+        {<div class="full-screen-container">
+                <div class="login-container">
+                    <h3 class="login-title">Hoş Geldiniz </h3>
+
+                    <div class="input-group">
+                        <label>Email</label>
+
+                        <input type="text" name="email" />
+                    </div>
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input type="password" name="sifre" />
+
+                    </div>
+                    <button type="submit" class="login-button">Giriş Yap</button>
+
+
+
+                </div>
+            </div>
+
+
+
+
+        }
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
